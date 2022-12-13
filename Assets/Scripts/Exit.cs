@@ -8,10 +8,10 @@ public class Exit : MonoBehaviour
     {
         exit();
     }
+    
     // Start is called before the first frame update
     void exit()
     {
         Application.Quit();
-        UnityEditor.EditorApplication.isPlaying = false;
     }
 }
